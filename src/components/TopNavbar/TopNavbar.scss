@@ -1,0 +1,22 @@
+.top-navbar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 25px;
+    margin: 15px 0;
+
+    .top-navbar-info {
+        display: flex;
+
+        .top-navbar-locate,
+        .top-navbar-phone,
+        .top-navbar-mail {
+            display: flex;
+            margin: 0 20px;
+        }
+    }
+    .top-navbar-img {
+        display: block;
+        margin: 0 5px;
+    }   
+}
